@@ -23,9 +23,9 @@ def main():
    #time  = today.strftime('%H')      
  
      #   if int(time) > 20 :
-            line_bot_api.push_message(USER_ID,messages=messages)
+    line_bot_api.push_message(USER_ID,messages=messages)
      #   else :
-            line_bot_api.push_message(USER_ID,messages=messages2)  
+    line_bot_api.push_message(USER_ID,messages=messages2)  
 
 
     
