@@ -19,6 +19,7 @@ def main():
     messages2= TextSendMessage(text = "今日も1日頑張りましょう♪")
   
 
+
     
 if __name__ == "__main__" :
     main()
