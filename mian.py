@@ -10,6 +10,8 @@ line_bot_api = LineBotApi(CHANNEL_ACCESS_TOKEN)
 
 def main():
     USER_ID = info['USER_ID']
+    import random
+    print random.randint(1,3)
     messages= TextSendMessage(text="あと少しだよ、がんばって～")
     line_bot_api.push_message(USER_ID,messages=messages)
     
