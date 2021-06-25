@@ -15,7 +15,7 @@ def main():
     messages1= TextSendMessage(random.choice(mylist))
     messages= TextSendMessage(text="今日のあなたの運勢は" )
     messages2= TextSendMessage(text = "です。")
-    line_bot_api.push_message(USER_ID,messages=messages,messages1,messages2)
+    line_bot_api.push_message(USER_ID,messages=messages+messages=messages1+messages=messages2)
     line_bot_api.push_message(USER_ID,messages=messages1)
     line_bot_api.push_message(USER_ID,messages=messages2)
     
