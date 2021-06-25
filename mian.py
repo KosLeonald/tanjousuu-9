@@ -11,7 +11,7 @@ line_bot_api = LineBotApi(CHANNEL_ACCESS_TOKEN)
 
 def main():
     USER_ID = info['USER_ID']
-    messages1= TextSendMessage(random.randint(1,3))
+    messages1= TextSendMessage(random.randint("aka","ao"))
     messages= TextSendMessage(text="あと少しだよ、がんばって～")
     line_bot_api.push_message(USER_ID,messages=messages)
     line_bot_api.push_message(USER_ID,messages=messages1)
