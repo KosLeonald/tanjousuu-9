@@ -33,4 +33,4 @@ jobs:
       - name: Run script
         run: |
           # mian.pyの実行
-          python main.py
+          python mian.py
