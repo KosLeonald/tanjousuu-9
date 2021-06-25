@@ -1,6 +1,6 @@
 import json 
 import random
-import time , datetime
+#import time , datetime
 
 
 from linebot import LineBotApi
