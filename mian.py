@@ -19,7 +19,7 @@ def main():
     messages2= TextSendMessage(text = "今日も1日頑張りましょう♪")
   
  today = datetime.datetime.fromtimestamp(time.time())
- time = today.strftime('%H')  
+ time  = today.strftime('%H')  
  
  if int(time) > 20 :
     line_bot_api.push_message(USER_ID,messages=messages)
