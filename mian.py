@@ -14,7 +14,7 @@ def main():
     messages1= TextSendMessage(1)
     messages= TextSendMessage(text="あと少しだよ、がんばって～")
     line_bot_api.push_message(USER_ID,messages=messages)
-    line_bot_api.push_message(USER_ID,messages1=messages1)
+    line_bot_api.push_message(USER_ID,messages=messages1)
     
 if __name__ == "__main__" :
     main()
