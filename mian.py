@@ -27,7 +27,7 @@ def main():
      #   else :
     #line_bot_api.broadcast(messages2)  
 
-
+    
     
 if __name__ == "__main__" :
     main()
