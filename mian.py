@@ -23,7 +23,7 @@ def main():
    #time  = today.strftime('%H')      
  
      #   if int(time) > 20 :
-    line_bot_api.broadcast(messages=messages)
+    line_bot_api.broadcast(messages)
      #   else :
     line_bot_api.broadcast(USER_ID,messages=messages2)  
 
