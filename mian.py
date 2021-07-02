@@ -25,7 +25,7 @@ def main():
      #   if int(time) > 20 :
     line_bot_api.broadcast(messages)
      #   else :
-    #line_bot_api.broadcast(messages2)  
+    line_bot_api.broadcast(messages2)  
 
     
     
