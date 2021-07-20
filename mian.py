@@ -1,6 +1,7 @@
 import json 
 import random
 #import time , datetime
+coding: UTF-8
 
 
 from linebot import LineBotApi
