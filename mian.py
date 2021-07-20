@@ -17,7 +17,7 @@ option_3 = "今週は私の週間占い初期の頃に使用していた、ソ�
 
 def main():
     USER_ID = info['USER_ID']
-    mylist = [ option_1,option_2,option_3]    
+    mylist = [ option_1,option_2,option_3,"確率分散","確率分散②"]    
     messages1= TextSendMessage(random.choice(mylist))
     #messages = TextSendMessage(text=random.choice(mylist))
     #messages2= TextSendMessage(text = "今日も1日頑張りましょう♪")
