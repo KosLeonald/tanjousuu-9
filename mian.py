@@ -18,16 +18,16 @@ def main():
         
  "占い＆タイ式リラクゼーション グラターイ","占いをします"]
     messages1= TextSendMessage(random.choice(mylist))
-    messages = TextSendMessage(text=random.choice(mylist))
+    #messages = TextSendMessage(text=random.choice(mylist))
     #messages2= TextSendMessage(text = "今日も1日頑張りましょう♪")
 
    # today = datetime.datetime.fromtimestamp(time.time())
    #time  = today.strftime('%H')      
  
      #   if int(time) > 20 :
-    line_bot_api.broadcast(messages)
+    line_bot_api.broadcast(messages1)
      #   else :
-    line_bot_api.broadcast(messages2)  
+    #line_bot_api.broadcast(messages2)  
 
     
     
