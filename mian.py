@@ -16,7 +16,7 @@ def main():
     USER_ID = info['USER_ID']
     mylist = [
         
- "占い＆タイ式リラクゼーション グラターイ"]
+ "占い＆タイ式リラクゼーション グラターイ","占いをします"]
     messages1= TextSendMessage(random.choice(mylist))
     messages = TextSendMessage(text=random.choice(mylist)" )
     #messages2= TextSendMessage(text = "今日も1日頑張りましょう♪")
