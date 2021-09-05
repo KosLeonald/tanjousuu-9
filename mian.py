@@ -20,7 +20,7 @@ option_3 = "【誕生数２】\nあなたを苦しめた全ての攻撃、裏切
 
 def main():
     USER_ID = info['USER_ID']
-    mylist = [ option_1,option_2,option_3,option_4,option_5,option_6]    
+    mylist = [ option_1,option_2,option_3]    
     messages1= TextSendMessage(random.choice(mylist))
     #messages = TextSendMessage(text=random.choice(mylist))
     #messages2= TextSendMessage(text = "今日も1日頑張りましょう♪")
